@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+        <title>My Portofolio</title>
+    <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background: #1b1b1b;
+                line-height: 1.6;
+                padding: 20px;
+                color: white;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            .profile {
+                margin: auto;
+                display: block;
+                width: 200px;
+                border-radius: 100px;
+            }
+            header {
+                padding: 40px 0 20px 0;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .subtitle {
+                color: white;
+                font-size: 1rem;
+                margin-bottom: 10px;
+            }
+            .section-title {
+                color: #fa2e2e;
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+            .skill-list {
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-bottom: 25px;
+            }
+            .skill-list li {
+                border: 1px solid #4e4e4e;
+                background-color: #202020;
+                padding: 6px 14px;
+                border-radius: 10px;
+                box-shadow:  0 4px 6px rgba(0,0,0,0.3);
+                font-size: 0.9rem;
+            }
+            li:hover {
+                background-color: #4e4e4e;
+            }
+            video {
+                border: 1px solid #4e4e4e;
+                border-radius: 10px;
+            }
+            video:hover {
+                box-shadow: 0 0 15px rgba(250, 46, 46, 0.4);
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 10px;
+                background-color: #1e1e1e;
+                border-radius: 8px;
+                overflow: hidden;
+            }
+            td, th {
+                padding: 12px 15px;
+                border-bottom: 1px solid rgb(46, 46, 46);
+            }
+            th {
+                background-color: #fa2e2e;
+                color: azure;
+            }
+            tr:hover {
+                background-color: #4e4e4e;
+            }
+            footer {
+                text-align: center;
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #2c2c2c;
+                color: #777;
+                font-size: 0.85rem;
+            }
+            a {
+                color: #e74c3c;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="profile.jpg" alt="Photo profile" class="profile">
+            <h1 align="center">Dharma Sri Kurniawan</h1>
+            <p align="center" class="subtitle">Vocational High School Student<br>
+            Major Software Engineering</p>
+        </header>
+        <hr>
+        <section>
+            <h2 class="section-title">Tentang Saya</h2>
+            <p>Halo Semua perkenalkan nama Dharma Sri Kurniawan Dari SMKN 7 Batam ini portofolio saya saat awal2 belajar menggunakan HTML di awal</p>
+        </section>
+        <section>
+            <h2 class="section-title">Keterampilan/Skill</h2>
+            <ul class="skill-list">
+                <li>Editing</li>
+                <li>HTML</li>
+                <li>C++</li>
+                <li>Python</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="section-title">Project Yang Pernah Saya kerjakan Dan Penguasaan Saya</h2>
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Mastery</th>
+                    <th>Project</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Alight Motion</td>
+                    <td rowspan="3">Novice</td>
+                </tr>
+                <tr>
+                    <td>
+                        <video width="100%" height="240" controls>
+                            <source src="am1 (1).mp4" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <video width="100%" height="240" controls>
+                            <source src="am1 (2).mp4" type="video/mp4">
+                        </video>
+                    </td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                    <td>Membuat Halaman Web Mengenai Sejarah Proklamasi</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Beginner</td>
+                    <td>Membuat Kalkulator Sederhana</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Beginner</td>
+                    <td>Membuat Kalkulasi Mengenai Pengantaran Barang</td>
+                </tr>
+            </table>
+        </section>    
+        <footer>
+            <p>Hubungi Saya: <a href="mailto:dharmakurniawan3@gmail.com">dharmakurniawan3@gmail.com</a> | GitHub: <a href="https://github.com/Kazutokane">github.com/Kazutokane</a></p>
+            <p style="margin-top: 10px;">&copy; 2026 Dharma Sri Kurniawan. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
